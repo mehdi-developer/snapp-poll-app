@@ -1,0 +1,91 @@
+.App {
+	background: rgb(0, 17, 75);
+	text-align: center;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.button {
+	background: rgb(78, 197, 94);
+	border: none;
+	outline: none;
+	text-align: center;
+	width: 110px;
+	height: 30px;
+	margin: 0 5px;
+	border-radius: 5px;
+	transition: all .25s;
+}
+
+.button:focus {
+	outline: none;
+}
+.button:hover {
+	box-shadow: 0 0 18px rgb(90, 224, 108);
+}
+
+.home {
+	margin-top: 15em;
+}
+
+.route {
+	margin-top: 10em;
+}
+
+.route__text {
+	font-size: 1.15em;
+}
+@media only screen and (min-width: 321px) {
+	.route__text {
+		font-size: 1.45em;
+	}
+}
+
+.route--text {
+	margin-right: 20%;
+}
+.route--text-no {
+	margin-right: 15%;
+}
+
+.field {
+	background: red;
+	width: 100px;
+	height: 25px;
+	border: 2px solid black;
+}
+
+.button {
+	width: 200px;
+	height: 45px;
+}
+
+.checkbox-text {
+	font-size: 1.3em;
+}
+
+@media only screen and (max-width: 321px) {
+	.checkbox-text {
+		font-size: 1.1em;
+	}
+}
+
+.final-logo {
+	width: 170px;
+}
+
+.modal-content {
+	background: rgb(0, 17, 75) !important;
+}
+
+button.close {
+	display: none !important;
+}
